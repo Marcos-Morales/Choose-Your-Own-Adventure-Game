@@ -31,14 +31,14 @@ Choice_1 = input("You have arrived at a crossroad. Which way will you go? Type '
 if Choice_1 == "left":
   Choice_2 = input("On your way, you notice a large lake and an island far in the distance. Type 'swim' to attempt to swim to the isalnd or type 'wait' to wait for a boat. \n").lower()
   if Choice_2 == "wait":
-    Choice_3 = input("After waiting for a while, a friendly fisherman arrives and gives you a ride on his boat to the island. When you arrive, you notice three doors, which will you enter? Type 'red', 'blue' or yellow' \n")
+    Choice_3 = input("After waiting for a while, a friendly fisherman arrives and gives you a ride on his boat to the island. When you arrive, you notice three doors, which will you enter? Type 'red', 'blue' or yellow' \n").lower()
     if Choice_3 == 'red':
-      print("A burning infero errupts from the door and you are burnt to a crisp. GAME OVER")
+      print("A burning infero errupts from the door and you are burnt to a crisp. \nGAME OVER")
     elif Choice_3 == 'blue':
       print("You open the door and see a large treasure chest filled with gold! \nCONGRATULATIONS! YOU WIN!")
     else:
-      print("You walk into the dark room only to hear the door slam behind you, leaving you trapped with no way out. GAME OVER.")
+      print("You walk into the dark room only to hear the door slam behind you, leaving you trapped with no way out. \nGAME OVER.")
   else:
-    print("You grow weak swimming the large distance and could not escape a hungry shark. GAME OVER.")
+    print("You grow weak swimming the large distance and could not escape a hungry shark. \nGAME OVER.")
 else:
-  print("You stumble on you path and fall into a pit trap. GAME OVER")
+  print("You stumble on you path and fall into a pit trap. \nGAME OVER")
